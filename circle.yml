@@ -2,3 +2,8 @@ dependencies:
   pre:
     - go get -v github.com/spf13/hugo
     - hugo version
+deployment:
+  master:
+    branch: master
+    commands:
+      - ./deploy.sh
