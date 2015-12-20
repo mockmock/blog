@@ -1,6 +1,6 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "ja-jp"
-title = "mockmock.dev"
+title = "log.mockmock.dev"
 theme = "hugo-zen"
 
 [params]
