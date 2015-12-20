@@ -17,5 +17,8 @@
 <div class="container">
 
 	<header role="banner">
-		<h1 class="site-title">{{ .Site.Title }}</h1>
+		<div class="header-logo">
+			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60"></a>
+		</div>
+    <h1 class="site-title">{{ .Site.Title }}</h1></a>
 	</header>

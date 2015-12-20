@@ -4,6 +4,7 @@ title = "log.mockmock.dev"
 theme = "hugo-zen"
 
 [params]
+  logo = "/images/logo.png"
   copyright = "mockmock.dev All rights reserved."
   github = "https://github.com/mockmock/"
 
