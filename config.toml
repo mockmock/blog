@@ -1,4 +1,4 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "https://mockmock.github.io/"
 languageCode = "ja-jp"
 title = "log.mockmock.dev"
 theme = "hugo-zen"
