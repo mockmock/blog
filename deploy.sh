@@ -15,6 +15,11 @@ msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
   fi
+
+  # FIXME: name & email
+  git config --global user.name 'kadoppe'
+  git config --global user.email 'kadoppe@me.com'
+
   git commit -m "$msg"
 
   # Push source and build repos.
