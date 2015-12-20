@@ -1,3 +1,9 @@
 baseurl = "http://replace-this-with-your-hugo-site.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "ja-jp"
+title = "mockmock.dev"
+theme = "hugo-zen"
+
+[params]
+  copyright = "mockmock.dev All rights reserved."
+  github = "https://github.com/mockmock/"
+
