@@ -2,13 +2,16 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# checkout submodule's master branch
+cd public
+git checkout master
+cd ..
+
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
-
-git checkout master
 
 # Add changes to git.
 git add -A
