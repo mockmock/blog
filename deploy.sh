@@ -13,22 +13,16 @@ git checkout master
 # Add changes to git.
 git add -A
 
-# Commit changes.
-msg="rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
-  fi
+# FIXME: name & email
+git config --global user.name 'kadoppe'
+git config --global user.email 'kadoppe@me.com'
 
-  # FIXME: name & email
-  git config --global user.name 'kadoppe'
-  git config --global user.email 'kadoppe@me.com'
+git commit -m "Create new post"
 
-  git commit -m "$msg"
+git pull origin master
 
-  git pull origin master
+# Push source and build repos.
+git push origin master
 
-  # Push source and build repos.
-  git push origin master
-
-  # Come Back
-  cd ..
+# Come Back
+cd ..
