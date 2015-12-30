@@ -20,16 +20,16 @@ msg="rebuilding site `date`"
 git config --global user.name 'kadoppe'
 git config --global user.email 'kadoppe@me.com'
 
-# git commit -m "$msg"
+git commit -m "$msg"
 
 # Push source and build repos.
-# git push origin master
+git push origin master
 
 # Come Back
 cd ..
 
 # Commit and push submodule update
-# git add -A
-# git commit -m "$msg"
+git add -A
+git commit -m "$msg"
 
-# git push origin master
+git push origin master
