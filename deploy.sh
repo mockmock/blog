@@ -19,8 +19,6 @@ git config --global user.email 'kadoppe@me.com'
 
 git commit -m "Create new post"
 
-git pull origin master
-
 # Push source and build repos.
 git push origin master
 
