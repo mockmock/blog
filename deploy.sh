@@ -9,6 +9,7 @@ hugo # if using a theme, replace by `hugo -t <yourtheme>`
 cd public
 
 git checkout master
+git pull origin master
 
 # Add changes to git.
 git add -A
