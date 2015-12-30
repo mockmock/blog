@@ -2,14 +2,14 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+git checkout master
+git pull origin master
+
 # Build the project. 
 hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
 # Go To Public folder
 cd public
-
-git checkout master
-git pull origin master
 
 # Add changes to git.
 git add -A
